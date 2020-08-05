@@ -1202,19 +1202,28 @@ border-radius: 10px;
     color: #343434;
     
     }
-
+html, body
+{
+width: 100%;
+overflow-x: hidden;
+}
 
     /* responsiveness */
 
 @media screen and (max-width: 425px) {
     .rect{
-        width: 26%;
+        width: 23%;
     }
- .bookimg{
+.bookimg{
 left:2px;
 height:20px;
 width:20px;
 top:555px;
+}
+html, body
+{
+width: 100%;
+overflow-x: hidden;
 }
 .book{
 left:25px;
@@ -1223,21 +1232,21 @@ top:535px;
 }
 
 .interactimg{
-left:140px;
+left:130px;
 height:20px;
 width:20px;
 top:555px;
 }
 
 .interact{
-left:160px;
+left:150px;
 font-size:10px;
 top:535px;
 }
 
 .trophyimg
 {
-left:270px;
+left:250px;
 height:20px;
 width:20px;
 top:555px;
@@ -1245,7 +1254,7 @@ top:555px;
 
 .trophy
 {
-left:290px;
+left:270px;
 font-size:10px;
 top:535px;
 }
@@ -1258,7 +1267,7 @@ top:535px;
         left: 2px;
     }
     .boost{
-        top:400px;
+        top:450px;
         left: 2px;
         font-size: medium;
     }
@@ -1313,7 +1322,8 @@ height:50px;
         }
       
         .choose {
-          left:0px;
+          left:30px;
+text-align:left;
         }
         
       
@@ -1335,9 +1345,9 @@ height:50px;
         .lpimg {
           display: block;
           left:2px;
-          top:60px;
+          top:80px;
           width:300px;
-          height:200px;
+          height:150px;
 	
         }
 .group{
@@ -1348,65 +1358,64 @@ flex-direction:row;
 
 .gp145
 {
-left:12px;
-width:370px;
+left:10px;
+width:350px;
 }
 
 .gp145h6
 {
-left:12px;
+left:10px;
 }
 .gp145h3
 {
-left:12px;
+left:10px;
 }
 .gp145p
 {
-width:350px;
-left:12px;
+width:330px;
+left:10px;
 }
 
 
 .gp146
 {
-left:12px;
-width:370px;
+left:10px;
+width:350px;
 }
 .gp147
 {
-left:12px;
-width:370px;
+left:10px;
+width:350px;
 }
 .gp148
 {
-left:12px;
-width:370px;
+left:10px;
+width:350px;
 }
 
 #Lp5
 {
-left:12px;
+left:10px;
 }
 #five
 {
-left:12px;
-width:370px;
+left:10px;
+width:350px;
 height:550px;
 }
 #frontEnd5
 {
-left:12px;
+left:10px;
 }
 #five1
 {
-left:12px;
-width:350px;
+left:10px;
+width:330px;
 }
 #what
 {
-left:12px;
+left:10px;
 top:320px;
-color:black;
 }
 #MFD
 {
@@ -1430,12 +1439,13 @@ top:450px;
 
 #d1
 {
-left:0px;
+text-align:left;
+left:5px;
 }
 #d2{
     text-align:left;
 
-left:10px;
+left:2px;
 }
 
 #pic
@@ -1474,14 +1484,17 @@ top:1950px;
 left:30px;
 top:2000px;
 }
+
 #d3{
 left:0px;
 text-align:left;
+font-size:25px;
 top:2100px;
 }
 
 #week
 {
+font-size:20px;
 left:10px;
 top:2130px;
 }
@@ -1491,7 +1504,7 @@ top:2130px;
 top:2200px;
 left:10px;
 height:1300px;
-width:380px;
+width:355px;
 }
 
 #lhc
@@ -1503,7 +1516,7 @@ left:10px;
 #txt
 {
 left:10px;
-width:370px;
+width:340px;
 }
 #proTxt
 {
